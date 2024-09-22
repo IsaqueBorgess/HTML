@@ -3,6 +3,10 @@ body{
     font-family: Raleway,Arial, Helvetica, sans-serif;
 }
 
+.redes{
+    text-align: center;
+}
+
 header{
     background-color: white;
     padding: 5px;
@@ -13,7 +17,11 @@ header{
 header >h1 {
     text-align: center;
     font-family: Raleway,Arial, Helvetica, sans-serif;
-    font-style:unset;
+    font-weight: lighter;
+}
+
+header a{
+    margin: 10px;
 }
 
 nav{
@@ -48,11 +56,9 @@ aside p{
     background-color: rgb(211, 211, 211);
     padding: 10px;
     border-radius: 5px;
+    text-align: justify;
 }
 
-article > img{
-    
-}
 img.foto{
     border-radius: 50%;
     margin: auto;
